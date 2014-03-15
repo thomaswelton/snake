@@ -1,0 +1,19 @@
+{
+  "name": "AutoDeployTest",
+  "version": "0.0.0",
+  "devDependencies": {
+    "bower": "*",
+    "grunt": ">= 0.4.1",
+    "grunt-contrib-compass": ">= 0.2.0",
+    "grunt-contrib-coffee": ">= 0.6.6",
+    "grunt-bower-task": ">= 0.2.0",
+    "grunt-contrib-uglify": ">= 0.2.0",
+    "grunt-contrib-requirejs": ">= 0.4.0",
+    "grunt-contrib-livereload": ">= 0.1.2",
+    "grunt-regarde": ">= 0.1.1",
+    "grunt-notify": ">= 0.2.3",
+    "grunt-parallel": ">= 0.1.0",
+    "grunt-remove-logging": ">= 0.1.0",
+    "grunt-contrib-imagemin": ">= 0.1.4"
+  }
+}

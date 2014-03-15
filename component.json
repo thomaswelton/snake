@@ -1,0 +1,18 @@
+{
+	"dependencies": {
+		"requirejs": "git://github.com/jrburke/requirejs",
+		"html5shiv": "git://github.com/aFarkas/html5shiv.git",
+    "domReady": "git://github.com/requirejs/domReady.git"
+  	},
+  	"exportsOverride": {
+  		"requirejs": {
+      		"./": "require.js"
+   		},
+   		"html5shiv": {
+   			"./": "dist/html5shiv.js"
+   		},
+      "domReady": {
+        "./": "domReady.js"
+      }
+  	}
+}

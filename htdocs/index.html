@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--[if IE 7]>    <html class="ie7 oldie" > <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie" > <![endif]-->
+<html lang="en">
+<head>
+	<title>Welcome</title>
+	
+	<!--[if lt IE 9]>
+		<script src="assets/scripts/components/html5shiv/html5shiv.js"></script>
+	<![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/compiled/template.css">
+	
+
+	<script src="assets/scripts/components/requirejs/require.js"></script>
+	<script src="assets/scripts/compiled/config.js"></script>
+
+	<script type="text/javascript">
+		require.config({
+			urlArgs: "bust=" + (new Date()).getTime()
+		});
+	</script>
+	<script type="text/javascript">
+		require(['assets/scripts/compiled/main.js']);
+	</script>
+
+</head>
+<body>
+	<div id="container">
+		<h1>Snake</h1>
+
+		<ul>
+			<li class="icon-blue-arrow"></li>
+			<li class="icon-green-arrow"></li>
+			<li class="icon-red-arrow"></li>
+		</ul>
+
+		<div id="game"></div>
+	</div>
+	</body>
+</html>

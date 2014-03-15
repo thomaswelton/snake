@@ -1,0 +1,93 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomaswelton\/Sites\/snake\/icon\/\*\.png}line{font-family:\0000358}}
+.icon-sprite, .icon-blue-arrow, .icon-green-arrow, .icon-red-arrow {
+  background: url('../../images/generated/icon-s8ad8709cda.png') no-repeat;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-blue-arrow {
+  background-position: 0 0;
+  height: 31px;
+  width: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-green-arrow {
+  background-position: 0 -62px;
+  height: 31px;
+  width: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/sprites\/_base\.scss}line{font-family:\0000360}}
+.icon-red-arrow {
+  background-position: 0 -31px;
+  height: 31px;
+  width: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomaswelton\/Sites\/snake\/sass\/imports\/_template\.scss}line{font-family:\000035}}
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomaswelton\/Sites\/snake\/sass\/imports\/_template\.scss}line{font-family:\000039}}
+body {
+  background: grey;
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomaswelton\/Sites\/snake\/sass\/imports\/_template\.scss}line{font-family:\0000314}}
+#container {
+  background: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 400px;
+  min-height: 400px;
+  padding: 25px;
+  margin: 50px auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomaswelton\/Sites\/snake\/sass\/imports\/_template\.scss}line{font-family:\0000323}}
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1;
+  display: inline-block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000360}}
+ul li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000348}}
+ul li:first-child, ul li.first {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
+ul li:last-child {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Library\/Ruby\/Gems\/1\.8\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
+ul li.last {
+  padding-right: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/thomaswelton\/Sites\/snake\/sass\/imports\/_template\.scss}line{font-family:\0000328}}
+#game {
+  width: 400px;
+  height: 400px;
+  margin: 20px 0;
+  background: black;
+}

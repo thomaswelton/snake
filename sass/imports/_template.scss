@@ -1,0 +1,38 @@
+$icon-sprite-dimensions:true;
+@import "icon/*.png";
+@include all-icon-sprites;
+
+html, body {
+	@include reset-box-model();
+}
+
+body{
+	background:grey;	
+	text-align:center;
+}
+
+#container{
+	background:white;
+	@include border-radius(10px);
+	width:400px;
+	min-height:400px;
+	padding:25px;
+	margin:50px auto;
+}
+
+ul{
+	@include horizontal-list;
+	display:inline-block;
+}
+
+#game{
+	$width: 400px;
+
+	width:$width;
+	height:$width;
+
+	margin:20px 0;
+
+	background:black;
+}
+
